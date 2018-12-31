@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sed -i 's/geteuid/getppid/' /usr/bin/vlc
+
+echo 'vlc can now run as root'
